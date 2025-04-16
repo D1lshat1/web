@@ -1,0 +1,531 @@
+@font-face {
+    font-family: Grtsk peta;
+    src: url(GrtskPeta-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Grtsk peta;
+}
+
+
+
+.Rectangle1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+.location{
+    margin-top: 15px;
+    margin-left: 160px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+   
+}
+
+.text-item{
+    color: #F2F2F2;
+    font-weight: 500;
+    font-size: 12px;
+    margin-right: 26px;
+    text-decoration: none;
+
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    
+}
+.down{
+    width: 10px;
+    height: 6px;
+    margin-right: 35px;
+}
+
+.warrant{
+    display: flex;
+    margin-left: 267px;
+}
+
+.free-del{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.oplata{
+    display: flex;
+    align-items: center;
+    gap: 15px;   
+}
+.vozvrat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.rectangle2{
+    display: flex;
+    align-items: center;
+
+}
+.text-item2{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 25px;
+    text-decoration: none;
+    
+}
+.man{
+    margin-left: 160px;
+    margin-top: 22px;
+
+}
+.logo{
+   margin-left: 305px; 
+   margin-top: 25px;
+   width: 242px; 
+   height: 50px;
+
+}
+
+.sign{
+    display: flex;
+    gap: 30px;
+    margin-left: 320px;
+    margin-top: 22px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-text{
+    font-weight: 500;
+    font-size: 8px;
+    margin: 0;
+}
+.rectangle3{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 60px;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-item3{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+.item3{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #EB5757;
+    padding: 25px;
+}
+
+.new{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.banner{
+    margin-top: 25px;
+    background-image: url(images/banner.svg);
+    height: 482px;
+    width: 1360px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 160px;
+
+}
+
+.sale{
+    background-color: black;
+    width: 623px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 316px;
+    margin-bottom: 76px;
+    margin-right: 737px;
+}
+
+.sale-text{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.buttons1{
+    position: absolute;
+    top: 421px;
+    left: 0;
+}
+
+.buttons2{
+    position: absolute;
+    top: 421px;
+    right: 0;
+}
+
+.button1{
+    width: 32px;
+    height: 98px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.button2{
+
+    width: 32px;
+    height: 98px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+    
+    
+}
+.brand1{
+    width: 61px;
+    height: 63px;
+}
+.brand2{
+    width: 50px;
+    height: 51px;
+}
+.brand3{
+    width: 60px;
+    height: 61px;
+}
+.brand4{
+    width: 67px;
+    height: 52px;
+    
+}
+.brand5{
+    width: 60px;
+    height: 63px;
+   
+}
+.brand6{
+    width: 62px;
+    height: 64px;
+    
+}
+.brand7{
+    width: 70px;
+    height: 72px;
+   
+}
+.brand8{
+    width: 72px;
+    height: 75px;
+   
+}
+.brand9{
+    width: 143px;
+    height: 43px;
+   
+}
+.brand10{
+    width: 70px;
+    height: 71px;
+   
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+}
+
+
+.action1{
+    background-image: url(images/sale1.svg);
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 667px;
+    margin-left: 169px;
+    margin-top: 50px;
+}
+
+.action2{
+    background-image: url(images/sale2.svg);
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 667px;
+    margin-top: 50px;
+}
+
+.n2{
+    background-color: black;
+    width: 667px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 260px;
+}
+
+
+.n1{
+    background-color: black;
+    width: 667px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 260px;
+
+}
+
+.n1Text{
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.new1{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;    
+}
+
+
+.snow{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 160px;
+    }
+
+
+.snow1-1{
+    background-color: #F9F9F9;
+    width: 320px;
+    height: 370px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.red{
+   background-color: #EB5757;
+    width: 55px;
+    height: 25px;
+    margin-top: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redtext{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+
+.snowboard1{
+    position: absolute;
+    
+}
+.star1{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+.snow-text{
+    margin-left: 160px;
+}
+
+.snow-text-class{
+    display: flex;
+    gap: 42px;
+    
+}
+
+
+.bigText{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.grayText{
+    
+    font-weight: 500;
+    color: #828B8D;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.price1{
+    font-weight: 500;
+    font-size: 18px;
+    color: #EB5757;
+    margin-top: 5px;
+
+}
+
+
+.snow1-2{
+    background-color: #F9F9F9;
+    width: 320px;
+    height: 370px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 50px;
+    
+}
+
+.seeMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 322px;
+    height: 50px;
+    margin-left: 679px;
+    margin-top: 50px;
+}
+
+.seeText{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.dc{
+    background-image: url(images/dc1.svg);
+    width: 1360px;
+    height: 395px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 100px;
+
+}
+
+.dcLogo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 36px;
+    margin-top: 36px;
+}
+
+.fishTx{
+    font-weight: 500;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.fishTx2{
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 506px;
+    margin-right: 506px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.dcShoes{
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.kurtka{
+    width: 100%;
+    height: 645px;
+    background-color: black;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.blogs{
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
