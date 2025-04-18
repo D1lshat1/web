@@ -18,17 +18,18 @@ body{
     width: 100%;
     height: 50px;
     background-color: black;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     align-items: center;
+
     
 }
 
 .location{
-    margin-top: 15px;
-    margin-left: 160px;
-    margin-bottom: 15px;
-    margin-right: 15px;
+    padding-top: auto;
+    padding-left: 5%;
+    padding-bottom: auto;
+    padding-right: 1%;
    
 }
 
@@ -36,16 +37,25 @@ body{
     color: #F2F2F2;
     font-weight: 500;
     font-size: 12px;
-    margin-right: 26px;
-    text-decoration: none;
+    text-decoration: none;  
 
 }
 
 .text{
     align-items: center;
     display: flex;
+    gap: 26px;
     
 }
+
+.text2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+}
+
+
 .down{
     width: 10px;
     height: 6px;
@@ -54,7 +64,10 @@ body{
 
 .warrant{
     display: flex;
-    margin-left: 267px;
+    align-items: center;
+    padding-left: 200px;
+    gap: 20px;
+
 }
 
 .free-del{
@@ -89,23 +102,26 @@ body{
     
 }
 .man{
-    margin-left: 160px;
-    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 1%;
 
 }
 .logo{
-   margin-left: 305px; 
-   margin-top: 25px;
-   width: 242px; 
-   height: 50px;
+   margin-left: 20%; 
+   margin-top: 1%;
+   width: auto; 
+   height: auto;
 
 }
 
 .sign{
     display: flex;
     gap: 30px;
-    margin-left: 320px;
-    margin-top: 22px;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 .icon{
     display: flex;
@@ -120,8 +136,8 @@ body{
 .rectangle3{
     background-color: #F9F9F9;
     width: 100%;
-    height: 60px;
-    margin-top: 22px;
+    height: 5%;
+    margin-top: 1%;
     justify-content: center;
     align-items: center;
 
@@ -132,14 +148,14 @@ body{
     font-weight: 500;
     text-decoration: none;
     color: black;
-    padding: 25px;
+    padding: 1%;
 }
 .item3{
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
     color: #EB5757;
-    padding: 25px;
+    padding: 1%;
 }
 
 .new{
@@ -151,27 +167,27 @@ body{
 
 
 .banner{
-    margin-top: 25px;
+    margin-top: 2%;
     background-image: url(images/banner.svg);
-    height: 482px;
-    width: 1360px;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    width: 100%;
     display: flex;
-    margin-left: 160px;
+    background-repeat: no-repeat;   
+    background-size: cover;
 
 }
 
 .sale{
     background-color: black;
+    background-size: cover;
     width: 623px;
     height: 90px;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 316px;
-    margin-bottom: 76px;
-    margin-right: 737px;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    margin-right: auto;
 }
 
 .sale-text{
@@ -199,15 +215,16 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    background-color: white;
     
 }
 .button2{
-
     width: 32px;
     height: 98px;
     justify-content: center;
     align-items: center;
     display: flex;
+    background-color: white;
     
 }
 
@@ -219,52 +236,53 @@ body{
     gap: 40px;
     
     
+    
 }
 .brand1{
-    width: 61px;
-    height: 63px;
+    width: auto;
+    height: auto;
 }
 .brand2{
-    width: 50px;
-    height: 51px;
+    width: auto;
+    height: auto;
 }
 .brand3{
-    width: 60px;
-    height: 61px;
+    width: auto;
+    height: auto;
 }
 .brand4{
-    width: 67px;
-    height: 52px;
+    width: auto;
+    height: auto;;
     
 }
 .brand5{
-    width: 60px;
-    height: 63px;
+    width: auto;
+    height: auto;
    
 }
 .brand6{
-    width: 62px;
-    height: 64px;
+    width: auto;
+    height: auto;
     
 }
 .brand7{
-    width: 70px;
-    height: 72px;
+    width: auto;
+    height: auto;
    
 }
 .brand8{
-    width: 72px;
-    height: 75px;
+    width: auto;
+    height: auto;
    
 }
 .brand9{
-    width: 143px;
-    height: 43px;
+    width: auto;
+    height: auto;
    
 }
 .brand10{
-    width: 70px;
-    height: 71px;
+    width: auto;
+    height: auto;
    
 }
 
@@ -273,48 +291,51 @@ body{
     display: flex;
     align-items: center;
     gap: 26px;
-
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 2%;
 }
 
 
 .action1{
     background-image: url(images/sale1.svg);
+    background-size: auto;
     background-repeat: no-repeat;
     height: 340px;
     width: 667px;
-    margin-left: 169px;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 .action2{
     background-image: url(images/sale2.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 340px;
+    height: 330px;
     width: 667px;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 .n2{
     background-color: black;
-    width: 667px;
-    height: 71px;
+    width: 100%;
+    height: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 260px;
+    top: 79%;
 }
 
 
 .n1{
     background-color: black;
-    width: 667px;
-    height: 71px;
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 260px;
+    top: 79%;
 
 }
 
@@ -328,7 +349,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 4%;
 
 }
 
@@ -342,8 +363,16 @@ body{
 .snow{
     display: flex;
     align-items: center;
+    margin-left: 3%;
     gap: 25px;
-    margin-left: 160px;
+    flex-wrap: wrap;
+    }
+
+    .snow-item {
+        display: flex;
+        flex-direction: column;
+        gap: ;
+        
     }
 
 
@@ -355,7 +384,7 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 4%;
 }
 .red{
    background-color: #EB5757;
@@ -386,20 +415,20 @@ body{
 }
 
 .snow-text{
-    margin-left: 160px;
+    text-align: left;
+    padding-top: 2%;
+
 }
 
-.snow-text-class{
-    display: flex;
-    gap: 42px;
-    
-}
+
+
 
 
 .bigText{
     font-weight: 500;
     font-size: 16px;
-    margin-top: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .grayText{
@@ -407,7 +436,7 @@ body{
     font-weight: 500;
     color: #828B8D;
     font-size: 14px;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .price{
@@ -419,7 +448,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     color: #EB5757;
-    margin-top: 5px;
+    padding-top: 1%;
 
 }
 
@@ -444,8 +473,8 @@ body{
     background-color: black;
     width: 322px;
     height: 50px;
-    margin-left: 679px;
-    margin-top: 50px;
+    margin-left: 40%;
+    margin-top: 4%;
 }
 
 .seeText{
@@ -458,14 +487,15 @@ body{
 
 .dc{
     background-image: url(images/dc1.svg);
-    width: 1360px;
+    width: 100%;
     height: 395px;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 160px;
-    margin-top: 100px;
+    margin-left: 0;
+    margin-top: 4%;
 
 }
 
@@ -493,8 +523,8 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 506px;
-    margin-right: 506px;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-top: 10px;
     line-height: 25px;
 }
@@ -504,7 +534,8 @@ body{
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 4%;
+
 }
 
 .kurtka{
@@ -513,14 +544,414 @@ body{
     background-color: black;
     margin-top: 100px;
     background-repeat: no-repeat;
+    background-image: url(images/kurtka.svg);
+    background-size: contain;
+    position: relative;
 }
 
-.blogs{
+
+.blogsText{
     font-weight: 500;
     font-size: 21px;
     color: white;
-    margin-top: 100px;
 }
+
+.All-blogs{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    padding-right: 100px;
+
+}
+
+
+.blogs{
+    padding-left: 57%;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 50%;
+
+}
+.long{
+    color:white;
+    font-weight: 700;
+    font-size: 32px;
+    padding-left: 34%;
+    padding-top: 3%;
+    
+}
+
+.fishTx3{
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 405px;
+    padding-right: 50px;
+    line-height: 25px;
+
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-left: 56%;
+    padding-top: 1%;
+    
+
+
+}
+
+.nextText{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.hr{
+    background-color: white;
+    width: 30px;
+    height: 1px;
+
+}
+
+.play-button{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+
+}
+
+.programm{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+
+.programm1{
+    background-image: url(images/programm1.svg);
+    width: 600px;
+    height: 700px;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+    
+    
+    
+
+}
+
+.logoWhite{
+   position: absolute;
+   top: 250px;
+   
+}
+
+.programm-text{
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+
+.point{
+    position: absolute;
+    top: 370px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    
+    
+    
+    
+     
+}
+
+.club{
+    position: absolute;
+    top: 450px;
+    width: 292px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programm2{
+    background-image: url(images/programm2.svg);
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;    
+}
+
+.mailWhite{
+    position: absolute;
+    top: 250px;
+}
+.mail{
+    width: 401px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 450px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+.mailBlack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+}
+
+
+.tg{
+    padding-left: 275px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    margin-top: 60px;
+}
+.footer-section1{
+    display: flex;
+    align-items: center;
+    padding-left: 154px;
+    padding-top: 50px;
+    gap: 5px;
+}
+
+.oval-logo{
+    
+}
+
+
+
+
+@font-face {
+    font-family: Grtsk peta;
+    src: url(GrtskPeta-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Grtsk peta;
+}
+
+
+[class*="Rectangle"],
+[class*="rectangle"],
+[class*="banner"],
+[class*="action"],
+[class*="snow"],
+[class*="dc"],
+[class*="kurtka"],
+[class*="blogs"],
+[class*="next"] {
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1024px) {
+    .location,
+    .man,
+    .logo,
+    .sign,
+    .banner,
+    .brands,
+    .action,
+    .snow,
+    .seeMore,
+    .dc,
+    .blogs,
+    .long,
+    .fishTx3,
+    .next {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .sign {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .banner {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .sale {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .action,
+    .brands,
+    .snow {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .action1,
+    .action2,
+    .snow1-1,
+    .snow1-2 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .dc {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .dcLogo {
+        margin-left: 0;
+    }
+
+    .blogs,
+    .long,
+    .fishTx3 {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+
+    .next {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .nextText {
+        padding-right: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rectangle3,
+    .blogs,
+    .seeMore,
+    .sale,
+    .dc,
+    .kurtka,
+    .snow,
+    .action {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-item,
+    .text-item2,
+    .text-item3,
+    .item3,
+    .log-text,
+    .price,
+    .price1,
+    .grayText,
+    .bigText,
+    .nextText,
+    .blogsText,
+    .All-blogs,
+    .fishTx3,
+    .new1,
+    .sale-text,
+    .n1Text,
+    .dcShoes {
+        font-size: 12px !important;
+    }
+
+    .logo,
+    .man {
+        margin-left: 0;
+    }
+
+    .action1,
+    .action2,
+    .snow1-1,
+    .snow1-2 {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .sign {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .sale-text {
+        font-size: 24px;
+    }
+
+    .banner,
+    .seeMore,
+    .action1,
+    .action2,
+    .snow1-1,
+    .snow1-2,
+    .dc {
+        width: 100%;
+    }
+
+    .long {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .fishTx3 {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .next {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nextText {
+        font-size: 12px;
+    }
+}
+
 
 
 
