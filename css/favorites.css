@@ -1,0 +1,646 @@
+@font-face {
+    font-family: Grtsk peta;
+    src: url(font/GrtskPeta-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Grtsk peta;
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.menu-location{
+    padding-top: auto;
+    padding-left: 5%;
+    padding-bottom: auto;
+    padding-right: 1%;
+   
+}
+
+.text-item{
+    color: #F2F2F2;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;  
+
+}
+
+.menu-text{
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    
+}
+
+.menu-text2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+}
+
+
+.down{
+    width: 10px;
+    height: 6px;
+    margin-right: 35px;
+}
+
+.warranty{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    gap: 20px;
+
+}
+
+.free-delivery{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.payment{
+    display: flex;
+    align-items: center;
+    gap: 15px;   
+}
+.return{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+
+}
+.text-item2{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 25px;
+    text-decoration: none;
+    
+}
+.man-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+.logo{
+   margin-left: 20%; 
+   margin-top: 1%;
+   width: auto; 
+   height: auto;
+
+}
+
+.sign{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-text{
+    font-weight: 500;
+    font-size: 8px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.menu3{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 5%;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-item3{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+.item3{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #EB5757;
+    padding: 1%;
+}
+
+.new-item{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.favorites-text{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.favorite{
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.sort-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #828B8D;
+    margin-left: 600px;
+
+}
+
+.sort{
+    width: 320px;
+    height: 50px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 105px;
+    margin-left: 30px;
+}
+
+.sort-text2{
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.snowboard-card{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 35px;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    }
+
+    .snowboard-item {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+.snowboard1-1{
+    background-color: #F9F9F9;
+    width: 320px;
+    height: 370px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.red{
+   background-color: #EB5757;
+    width: 55px;
+    height: 25px;
+    margin-top: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redtext{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+
+.snowboard1{
+    position: absolute;
+    
+}
+.star1{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+.snowboard-text{
+    text-align: left;
+    padding-top: 2%;
+
+}
+
+
+
+
+
+.bigText{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.grayText{
+    
+    font-weight: 500;
+    color: #828B8D;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.price1{
+    font-weight: 500;
+    font-size: 18px;
+    color: #EB5757;
+    padding-top: 1%;
+
+}
+
+
+.snow1-2{
+    background-color: #F9F9F9;
+    width: 320px;
+    height: 370px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 50px;
+    
+}
+
+.favorite2{
+    font-weight: 700;
+    font-size: 21px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    margin-top: 60px;
+    position: relative;
+}
+
+
+.footer-section1{
+    display: flex;
+    align-items: center;
+    
+    padding-left: 100px;
+    padding-top: 50px;
+    gap: 200px;
+    
+
+}
+
+.oval-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.transparent-box{
+    width: 667px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid grey;
+    padding-right: 5px;
+    
+    
+}
+
+.transparent{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 15px;
+    
+}
+
+
+
+.box-text{
+    color: white;
+}
+
+.tg-white{
+    margin-left: 165px;
+}
+
+.span{
+    color: #EB5757;
+}
+
+.hr1{
+    width: 1300px;
+    height: 0,5px;
+    margin-top: 20px;
+    color: gray;
+    background-color: gray;
+}
+
+.footer-section2{
+  padding-left: 100px;
+  padding-top: 10px;
+
+}
+
+.app{
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    
+
+}
+
+.QR{
+    position: absolute;
+    left: 300px;
+}
+
+.footer-section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 250px;
+}
+
+.contact{
+    position: absolute;
+    bottom: 115px;
+
+    
+    
+}
+.phone{
+    position: absolute;
+    bottom: 80px;
+    left: 560px;
+    
+}
+
+.mail-footer{
+    position: absolute;
+    left: 560px;
+    
+}
+
+.number{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 600px;
+
+}
+
+.footer-text{
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 35px;
+    left: 600px;
+}
+
+.mail-text{
+    position: absolute;
+    left: 600px;
+    color: white;
+
+}
+
+.info-ru{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    position: absolute;
+    top: 5px;
+    left: 600px;
+
+}
+
+
+.help{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 850px;
+    gap: 20px;
+    top: 150px;
+}
+
+.aid{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.help-text{
+    font-weight: 500;
+    font-size: 12px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1000px;
+    gap: 20px;
+    top: 150px;
+}
+
+.boardriders-co{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1170px;
+    gap: 20px;
+    top: 150px;
+}
+.hr2{
+    width: 1300px;
+    height: 0,5px;
+    margin-top: 90px;
+    color: gray;
+    
+}
+
+.footer-section4{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 110px;
+    gap: 790px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+@media (min-width:1440px) and (max-width: 1920px) {
+
+    .warrant{
+        margin-left: 430px;
+      }
+
+      
+    .footer{
+      
+    }
+    .footer-section1{
+      margin-left: 250px;
+    }
+  
+    .footer-section2{
+      margin-left: 350px;  
+      margin-top: 50px;
+  
+    }
+  
+    .app{
+     
+    }
+  
+    .box-text{
+      display: none;
+  
+    }
+  
+    .contact{
+      position: absolute;
+      margin-left: 910px;
+      top: -160px;
+    }
+  
+    .hr2{
+      margin-top: 130px;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+    .footer-section3{
+      margin-left: 800px;
+      margin-top: -50px;
+    }
+  
+    .footer-section4{
+      margin-left: 310px;
+    }
+}
+
+@media (max-width: 767px){
+    .menu, .man-logo, .menu3, .favorite2{
+        display: none;
+    }
+
+    .menu2{
+        gap: 5px;
+    }
+
+    .logo{
+        margin-top: 40px;
+        margin-left: 150px;
+        transform: scale(2);
+    }
+
+    .sign{
+        margin-left: 400px;
+        transform: scale(1.5);
+        margin-top: 20px;
+    }
+        .snowboard-card {
+          display: flex;
+          flex-wrap: wrap; 
+          justify-content: center;
+          gap: 500px;
+          margin-left: 600px;
+          margin-top: 400px;
+        }
+    
+        .snowboard-item {
+          margin-bottom: 20px;
+          transform: scale(2);
+          
+        }
+
+        .footer{
+            display: none;
+        }
+
+        .favorite{
+            font-weight: 700;
+            font-size: 32px;
+            display: flex;
+            align-content: center;
+        }
+
+        .sort-text{
+            transform: scale(1.5);
+            margin-left: 400px;
+        }
+}
+
+
+    
+
+   
+    
+    
