@@ -21,6 +21,9 @@ body{
     background-size: 100%;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 
     
 }
@@ -37,8 +40,18 @@ body{
     color: #F2F2F2;
     font-weight: 500;
     font-size: 12px;
-    text-decoration: none;  
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    cursor: pointer; 
 
+}
+
+
+.text-item:hover{
+
+    color: #EB5757;
+      transform: scale(1.1);
+      text-shadow: 0 2px 10px rgba(0, 123, 255, 0.5);
 }
 
 .text{
@@ -87,6 +100,22 @@ body{
     gap: 15px;
 }
 
+.burger {
+    width: 30px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .burger span {
+    display: block;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 2px;
+  }
+
 
 .rectangle2{
     display: flex;
@@ -99,8 +128,21 @@ body{
     font-size: 14px;
     margin-right: 25px;
     text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
     
 }
+
+
+
+.text-item2:hover{
+
+    color: #EB5757;
+      transform: scale(1.1);
+      text-shadow: 0 2px 10px rgba(0, 123, 255, 0.5);
+}
+
+
 .man{
     display: flex;
     align-items: center;
@@ -132,7 +174,23 @@ body{
     font-weight: 500;
     font-size: 8px;
     margin: 0;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.log-text:hover{
+
+    color: #EB5757;
+      transform: scale(1.1);
+      text-shadow: 0 2px 10px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+
 .rectangle3{
     background-color: #F9F9F9;
     width: 100%;
@@ -149,7 +207,35 @@ body{
     text-decoration: none;
     color: black;
     padding: 1%;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.text-item3:hover{
+    color: #EB5757;
+    transform: scale(1.1);
+    text-shadow: 0 2px 10px #EB5757;
+}
+
+
+
+.text-item1{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.text-item1:hover{
+    color: #EB5757;
+    transform: scale(1.1);
+    text-shadow: 0 2px 10px #EB5757;
+}
+
+
 .item3{
     font-size: 14px;
     font-weight: 500;
@@ -168,7 +254,7 @@ body{
 
 .banner{
     margin-top: 2%;
-    background-image: url(images/banner.svg);
+    background-image: url(/images/banner.svg);
     height: auto;
     width: 100%;
     display: flex;
@@ -228,7 +314,16 @@ body{
     
 }
 
+@keyframes scrollBrands {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
 .brands{
+    
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scrollBrands 15s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,8 +393,8 @@ body{
 
 
 .action1{
-    background-image: url(images/sale1.svg);
-    background-size: auto;
+    background-image: url(/images/sale1.svg);
+    background-size: center;
     background-repeat: no-repeat;
     height: 340px;
     width: 667px;
@@ -307,8 +402,8 @@ body{
 }
 
 .action2{
-    background-image: url(images/sale2.svg);
-    background-size: cover;
+    background-image: url(/images/sale2.svg);
+    background-size: center;
     background-repeat: no-repeat;
     height: 330px;
     width: 667px;
@@ -368,10 +463,25 @@ body{
     flex-wrap: wrap;
     }
 
+
     .snow-item {
         display: flex;
         flex-direction: column;
-        gap: ;
+        
+        
+    }
+
+    .snow-item1 {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .snow-item2 {
+        display: flex;
+        flex-direction: column;
+        
         
     }
 
@@ -386,6 +496,36 @@ body{
     align-items: center;
     margin-top: 4%;
 }
+
+.snow1-1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+
+
+  .seeMore:hover, .club:hover, .mail:hover {
+    transform: scale(1.05);
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+
+
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .snow-item, .action1, .action2 {
+    animation: fadeUp 0.6s ease forwards;
+    opacity: 0;
+  }
+
+
 .red{
    background-color: #EB5757;
     width: 55px;
@@ -396,6 +536,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
 .redtext{
     font-weight: 500;
     font-size: 14px;
@@ -417,6 +559,7 @@ body{
 .snow-text{
     text-align: left;
     padding-top: 2%;
+
 
 }
 
@@ -477,6 +620,17 @@ body{
     margin-top: 4%;
 }
 
+.seeMore2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 322px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
 .seeText{
     font-weight: 500;
     font-size: 16px;
@@ -486,7 +640,7 @@ body{
 
 
 .dc{
-    background-image: url(images/dc1.svg);
+    background-image: url(/images/dc1.svg);
     width: 100%;
     height: 395px;
     background-size: cover;
@@ -544,7 +698,7 @@ body{
     background-color: black;
     margin-top: 100px;
     background-repeat: no-repeat;
-    background-image: url(images/kurtka.svg);
+    background-image: url(/images/kurtka.svg);
     background-size: contain;
     position: relative;
 }
@@ -561,7 +715,15 @@ body{
     font-size: 14px;
     color: white;
     padding-right: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 
+}
+
+.All-blogs:hover{
+    color: #EB5757;
+    transform: scale(1.1);
+    text-shadow: 0 2px 10px #EB5757;
 }
 
 
@@ -607,7 +769,16 @@ body{
     color: white;
     font-weight: 500;
     font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
     
+}
+
+.nextText:hover{
+    color: #EB5757;
+    transform: scale(1.1);
+    text-shadow: 0 2px 10px #EB5757;
 }
 
 .hr{
@@ -634,7 +805,7 @@ body{
 
 
 .programm1{
-    background-image: url(images/programm1.svg);
+    background-image: url(/images/programm1.svg);
     width: 600px;
     height: 700px;
     display: flex;
@@ -691,7 +862,7 @@ body{
 }
 
 .programm2{
-    background-image: url(images/programm2.svg);
+    background-image: url(/images/programm2.svg);
     width: 600px;
     height: 700px;
     display: flex;
@@ -734,20 +905,251 @@ body{
 .footer{
     width: 100%;
     background-color: black;
-    height: 400px;
+    height: 500px;
     margin-top: 60px;
+    position: relative;
 }
+
+
 .footer-section1{
     display: flex;
     align-items: center;
-    padding-left: 154px;
+    
+    padding-left: 100px;
     padding-top: 50px;
-    gap: 5px;
+    gap: 200px;
+    
+
 }
 
 .oval-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.transparent-box{
+    width: 667px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid grey;
+    padding-right: 5px;
+    
     
 }
+
+.transparent{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 15px;
+    
+}
+
+.box-text1{
+    color: white;
+}
+
+.box-text{
+    color: white;
+}
+
+.tg-white{
+    margin-left: 165px;
+}
+
+.span{
+    color: #EB5757;
+}
+
+.hr1{
+    width: 1300px;
+    height: 0,5px;
+    margin-top: 20px;
+    color: gray;
+    background-color: gray;
+}
+
+.footer-section2{
+  padding-left: 100px;
+  padding-top: 10px;
+  
+}
+
+.app{
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    
+
+}
+
+.QR{
+    position: absolute;
+    left: 300px;
+}
+
+.footer-section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 250px;
+}
+
+.contact{
+    position: absolute;
+    bottom: 115px;
+
+    
+    
+}
+.phone{
+    position: absolute;
+    bottom: 80px;
+    left: 560px;
+    
+}
+
+.mail-footer{
+    position: absolute;
+    left: 560px;
+    
+}
+
+.number{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 600px;
+
+}
+
+.footer-text{
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 35px;
+    left: 600px;
+}
+
+.mail-text{
+    position: absolute;
+    left: 600px;
+    color: white;
+
+}
+
+.info-ru{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    position: absolute;
+    top: 5px;
+    left: 600px;
+
+}
+
+
+.help{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 850px;
+    gap: 20px;
+    top: 150px;
+}
+
+.aid{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.help-text{
+    font-weight: 500;
+    font-size: 12px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1000px;
+    gap: 20px;
+    top: 150px;
+}
+
+.boardriders-co{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1170px;
+    gap: 20px;
+    top: 150px;
+}
+.hr2{
+    width: 1300px;
+    height: 0,5px;
+    margin-top: 90px;
+    color: gray;
+    
+}
+
+.footer-section4{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 110px;
+    gap: 790px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.mobile-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: none;
+  }
+  
+  .footer-brand {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav a {
+    color: #aaa;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-nav a:hover {
+    color: #fff;
+  }
+  
+  .footer-copy {
+    font-size: 12px;
+    color: #666;
+  }
 
 
 
@@ -951,6 +1353,446 @@ body {
         font-size: 12px;
     }
 }
+
+@media(max-width: 767px) {
+    .body{
+      margin: 0;
+    }
+    
+    
+      .Rectangle1 {
+      display: none;
+      
+    }
+    .rectangle3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+    }
+    .new{
+      scale: 0.5;
+      font-size: 5px;
+      gap: 10px;
+    }
+  
+    .item3{
+      display: none;
+    }
+  
+  
+    .buttons1,
+    .buttons2,.man,.sign{
+      display: none;
+      
+  
+    }
+  
+    .text-item1{
+      display: none;
+    }
+    .rectangle2{
+          display: flex;
+          justify-content: flex-start;
+    }
+  
+  
+    .logo{
+      
+      margin-top: 10px;
+      scale: 0.6;
+      
+    }
+  
+    .burger{
+      display: flex;
+      position: absolute;
+      margin-top: 25px;
+      margin-left: 85%;
+    }
+  
+    .banner{
+      width: 360px;
+      height: auto;   
+      display: flex;
+      justify-content: center; 
+      
+      
+    }
+  
+    .sale{
+      display: flex;
+      margin-left: 0px;
+      height: 30px;
+      width: 150px;
+      margin-top: 80px;
+    }
+  
+    .brands{
+      display: grid;
+      grid-auto-flow: column;
+      margin-top: 10px;
+      scale: 0.5;
+    }
+  
+  .brand1{
+      display: none;
+      
+  }
+  .brand2{
+      display: none;
+      
+  }
+  .brand3{
+      display: none;
+  }
+  .brand4{
+     display: none;
+      
+  }
+  .brand5{
+      display: none;
+     
+  }
+  
+  .action1{
+      display: flex;
+      margin-top: 10px;
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      width: 100%;
+      justify-content: center;
+      
+  }
+  
+  .action2{
+      display: flex;
+      margin-top: 10px;
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      width: 100%;
+      justify-content: center;
+  }
+  
+  .snow{
+      scale: 0.5;
+      display: grid;
+      grid-auto-flow: column;
+      gap: 50px;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      right: 50px;
+      left: 50px;
+      top: 820px;
+      
+      
+  }
+  
+  
+      .snow-item{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color:  #F9F9F9;
+          width: 300px;
+          height: 350px;
+  
+  
+      }
+  
+  
+      .snowboard1{
+          position: fixed;
+          top: 30px;
+          
+      }
+  
+      .snow1-1 {
+          width: 100%;
+          height: auto;
+      }
+  
+      .snow-text{
+         flex-direction: column;
+          position: absolute;
+          top: 100%;
+          gap: auto;
+          margin-right: 210px;
+          
+          
+      }
+  
+       .snow-item1,.snow-item2{
+          display: none;
+      }
+      
+      .seeMore{
+          scale: 0.5;
+          margin-top: 280px;
+         display: flex;
+         justify-content: center;
+         
+          
+      }
+  
+      .seeMore2{
+          display: none;
+      }
+  
+  
+      .dc{
+          width: 360px;
+          height: auto;
+          margin-left: 0;
+      }
+  
+      .fishTx2{
+          width: 300px;
+          margin:auto
+          
+          
+      }
+  
+  
+      .kurtka{
+          height: 350px;
+          
+      }
+  
+      .play-button{
+          margin-left: 50px;
+          width: 20px;
+          height: 20px;
+      }
+  
+      .long, .dcShoes, .All-blogs, .fishTx3, .hr, .nextText{
+          display: none;
+      }
+      
+      .programm{
+          display: none;
+      }    
+  
+  
+      .footer{
+          display: none;
+      }
+  
+  
+  
+  }
+  
+  
+  @media (min-width:1440px) and (max-width: 1920px) {
+     body{
+      margin: 0;
+    }
+    .warrant{
+      margin-left: 430px;
+    }
+  
+    .logo{
+      padding-left: 100px;
+    }
+  
+    .buttons1{
+      display: none;
+    }
+  
+    .buttons2{
+      display: none;
+    }
+  
+    .brands{
+      display: flex;
+      align-items: center;
+      gap: 70px;
+    }
+  
+    .snow{
+      display: flex;
+      align-items: center ;
+      justify-content: center;
+    }
+  
+    .fishTx3{
+      margin-left: 135px;
+      margin-right: 100px;
+    }
+  
+    .kurtka{
+      position: relative;
+    }
+  
+    .play-button{
+      position: absolute;
+      left: 430px;
+    }
+  
+    .footer{
+      
+    }
+    .footer-section1{
+      margin-left: 250px;
+    }
+  
+    .footer-section2{
+      margin-left: 350px;  
+      margin-top: 50px;
+  
+    }
+  
+    .app{
+     
+    }
+  
+    .box-text{
+      display: none;
+  
+    }
+  
+    .contact{
+      position: absolute;
+      margin-left: 910px;
+      top: -160px;
+    }
+  
+    .hr2{
+      margin-top: 130px;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+    .footer-section3{
+      margin-left: 800px;
+      margin-top: -50px;
+    }
+  
+    .footer-section4{
+      margin-left: 310px;
+    }
+  
+      
+  }
+
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    /* Верхняя панель */
+    .warrant {
+      margin-left: 200px;
+      gap: 10px;
+    }
+  
+    /* Логотип и меню */
+    .logo {
+      padding-left: 40px;
+      width: 160px;
+    }
+  
+    .man {
+      margin-left: 3%;
+      gap: 20px;
+    }
+  
+    .sign {
+      margin-right: 3%;
+      gap: 20px;
+    }
+  
+    /* Блоки брендов */
+    .brands {
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  
+    /* Баннер и кнопки */
+    .banner {
+      background-size: cover;
+      height: auto;
+    }
+  
+    .sale {
+      width: 500px;
+      height: 80px;
+    }
+  
+    /* Карточки товаров */
+    .snow {
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .snow1-1 {
+      width: 280px;
+      height: 340px;
+    }
+  
+    /* Блоки акций */
+    .action1, .action2 {
+      width: 600px;
+      height: 320px;
+      background-size: cover;
+    }
+  
+    .n1, .n2 {
+      height: 20%;
+      top: 80%;
+    }
+  
+    /* Блок с блогами */
+    .kurtka {
+      background-size: cover;
+      height: auto;
+    }
+  
+    .blogs {
+      padding-left: 55%;
+      gap: 10%;
+    }
+  
+    .long, .fishTx3 {
+      padding-left: 25%;
+      padding-right: 5%;
+    }
+  
+    .play-button {
+      left: 20%;
+    }
+  
+    /* Программа лояльности */
+    .programm {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .programm1, .programm2 {
+      width: 95%;
+      height: auto;
+      background-size: cover;
+    }
+  
+
+    .footer-section1, .footer-section2 {
+      padding-left: 40px;
+      gap: 100px;
+    }
+  
+    .footer-section3 {
+      margin-left: 650px;
+    }
+  
+    .footer-section4 {
+      gap: 500px;
+    }
+  }
+
 
 
 
